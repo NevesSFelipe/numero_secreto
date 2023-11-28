@@ -11,7 +11,7 @@ Este é um projeto simples de número secreto desenvolvido como parte de um curs
 
 ## Como Jogar
 
-1. Acesse o site através desse LINK
+1. Acesse o site através desse [LINK](https://nevessfelipe.github.io/numero_secreto/)
 
 ## Créditos
 
