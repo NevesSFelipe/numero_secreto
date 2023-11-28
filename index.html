@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>FSN | Acerte o Número</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+
+                <div class="container__texto">
+                    <h1>Número Secreto </h1>
+                    <p id="dica" class="texto__paragrafo">Digite um número de 1 à 100</p>
+                </div>
+                
+                <input class="container__input" id="numero_digitado" type="number" id="numero" min="1" max="100" step="1" placeholder="">
+
+                <p class="texto__paragrafo__dica" id="dica"></p>
+                <p class="texto__paragrafo__dica">Tentativas: <span id="quantidade_tentativas">0</span> / <span id="maximo_tentativas">0</span></p>
+
+                
+                <div class="chute container__botoes">
+                    <button type="button" id="btn_enviar" class="container__botao">Chutar</button>
+                    <button type="button" id="btn_reiniciar" class="container__botao" disabled>Novo jogo</button>
+                </div>
+                <button onclick="abrirGithub()" type="button" id="btn_github" class="container__botao"><i class="fa-brands fa-github"></i> Github</button>
+            </div>
+            <img src="assets/img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+        </div>
+    </div>
+    <script src="assets/js/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/910e6444fa.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
